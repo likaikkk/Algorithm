@@ -7,6 +7,7 @@ class UnionFind {
 private:
     vector<int> parent;
     vector<int> rank;
+    /* rank 的作用是记录树的高度或秩。在执行合并操作时，通过比较两个根节点（集合的代表元素）的 rank，可以决定将哪个树合并到另一个树上。通常，我们希望将较小秩的树合并到较大秩的树上，以避免树的高度过大，从而保持并查集操作的高效性。 */
 public:
     UnionFind(int n) {
         parent.resize(n);

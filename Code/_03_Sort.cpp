@@ -119,7 +119,7 @@ void merge(int* sourceArr, int* tempArr, int startIndex, int midIndex, int endIn
     }
     while (j != endIndex + 1)
     {
-        tempArr[k++] = sourceArr[j++`];
+        tempArr[k++] = sourceArr[j++];
     }
 
     //将合并后的结果复制回原数组

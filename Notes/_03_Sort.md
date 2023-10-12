@@ -91,7 +91,7 @@
 
 **选择排序**（英语：Selection sort）是一种简单直观的排序算法。它的工作原理是每次找出第 i 小的元素（也就是 A<sub>i..n</sub> 中最小的元素），然后将这个元素与数组第 i 个位置上的元素交换。
 
-![Selection sort](http://oi-wiki.com/basic/images/selection-sort-1-animate-example.svg)
+![Selection sort](http://oi-wiki.com/basic/images/selection-sort-animate.svg)
 
 ### 性质
 
@@ -175,7 +175,7 @@ void bubble_sort(int *a, int n) {
 
 一个与插入排序相同的操作是打扑克牌时，从牌桌上抓一张牌，按牌面大小插到手牌后，再抓下一张牌。
 
-![Selection sort](http://oi-wiki.com/basic/images/insertion-sort-1-animate-example.svg)
+![Selection sort](http://oi-wiki.com/basic/images/insertion-sort-animate.svg)
 
 ### 性质
 
@@ -216,7 +216,7 @@ void insert_sort(int* a, int n) {
 
 计数排序的工作原理是使用一个额外的数组 C，其中第 $i$ 个元素是待排序数组 A 中值等于 $i$ 的元素的个数，然后根据数组 C 来将 A 中的元素排到正确的位置。
 
-![](http://oi-wiki.com/basic/images/counting-sort-1-animate-example.svg)
+![](http://oi-wiki.com/basic/images/counting-sort-animate.svg)
 
 ### 性质
 

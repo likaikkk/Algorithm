@@ -132,3 +132,4 @@ YES
 ```
 
 [\_05_Friend.cpp](E:\Programming\Notes\Algorithm\Code_05_Friend.cpp)
+
